@@ -10,3 +10,14 @@ export interface Project {
   featured: boolean
   order: number
 }
+
+export interface SiteConfig {
+  name: string
+  role: string
+  tagline: string
+  bio: string
+  email: string
+  github?: string
+  linkedin?: string
+  twitter?: string
+}
