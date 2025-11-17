@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
+import Contact from '@/components/Contact'
 
 // temporary
 const mockProjects = [
@@ -62,6 +63,12 @@ export default function Home() {
       />
       <Projects projects={mockProjects} />
       <Skills />
+      <Contact 
+        email="lorasovkoska@yahoo.com"
+        github="https://github.com/lorasovkoska"
+        linkedin="https://linkedin.com/in/lorasovkoska"
+        twitter="https://twitter.com/lorasovkoska"
+      />
     </main>
   )
 }
