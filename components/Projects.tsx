@@ -86,7 +86,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
     <section
       ref={containerRef}
       id="projects"
-      className="section-padding"
+      className="section-padding grid-bg-subtle"
       aria-labelledby="projects-heading"
     >
       <div className="container-custom">
